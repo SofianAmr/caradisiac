@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Installation](#installation)
 - [Introduction](#introduction)
 - [Objective - Workshop in 1 sentence](#objective---workshop-in-1-sentence)
 - [How to do that?](#how-to-do-that)
@@ -20,6 +21,28 @@
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Installation 
+
+Install the dependencies 
+ ```
+ npm install
+ npm install express
+ npm install elasticsearch
+ npm install https://github.com/92bondstreet/node-car-api.git
+ ```
+
+Then start the server
+ ```
+ node server
+ ```
+
+It's running on port 9292
+
+* Go to http://localhost:9200/populate to index the models of cars
+* Then, go to http://localhost:9200/suv to display json of models with volume order by desc
+
+
 
 ## Introduction
 
