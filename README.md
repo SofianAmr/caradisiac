@@ -31,6 +31,9 @@ Install the dependencies
  npm install elasticsearch
  npm install https://github.com/92bondstreet/node-car-api.git
  ```
+ 
+Start elasticsearch on your computer
+* Open elasticsearch-6.2.2/bin/elasticsearch.bat
 
 Then start the server
  ```
